@@ -29,71 +29,136 @@
 
 ### Library Structure
   Vexel-CSS/
+  <br></br>
   ├── Exampels\Modal/
+  <br></br>
   │   ├── index.html
+  <br></br>
   ├── Fonts/
   │   ├── Poppins-Bold.ttf
+  <br></br>
   │   ├── Poppins-Regular.ttf
+  <br></br>
   ├── Icons/
+  <br></br>
   │   ├── chervon_down_light.svg
+  <br></br>
   │   ├── chervon_down.svg
+  <br></br>
   │   ├── close.svg
+  <br></br>
   │   ├── rounded_switch.svg 
+  <br></br>
   ├── Scripts/
+  <br></br>
   │   ├── build.js
+  <br></br>
   │   ├── dev_v1.3.js
+  <br></br>
   │   ├── drop_down.js
+  <br></br>
   │   ├── logs.js
+  <br></br>
   │   ├── modal.js
+  <br></br>
   │   ├── package.json
+  <br></br>
   │   ├── server.js
+  <br></br>
   ├── src/
+  <br></br>
   ├── SASS/
+  <br></br>
   │     ├── _borders.css
+  <br></br>
   │     ├── _borders.min.css
+  <br></br>
   │     ├── _borders.scss
+  <br></br>
   │     ├── _colorfull_text.css
+  <br></br>
   │     ├── _colorfull_text.min.css
+  <br></br>
   │     ├── _colorfull_text.scss
+  <br></br>
   │     ├── _colors.css
+  <br></br>
   │     ├── _colors.min.css
+  <br></br>
   │     ├── _colors.scss
+  <br></br>
   │     ├── _command.css
+  <br></br>
   │     ├── _command.min.css
+  <br></br>
   │     ├── _command.scss
+  <br></br>
   │     ├── _functions.css
+  <br></br>
   │     ├── _functions.min.css
+  <br></br>
   │     ├── _functions.scss
+  <br></br>
   │     ├── _gradient.css
+  <br></br>
   │     ├── _gradient.min.css
+  <br></br>
   │     ├── _gradient.scss
+  <br></br>
   │     ├── _mixins.css
+  <br></br>
   │     ├── _mixins.min.css
+  <br></br>
   │     ├── _mixins.scss
+  <br></br>
   │     ├── _scaling.css
+  <br></br>
   │     ├── _scaling.min.css
+  <br></br>
   │     ├── _scaling.scss
+  <br></br>
   │     ├── _shadows.css
+  <br></br>
   │     ├── _shadows.min.css
+  <br></br>
   │     ├── _shadows.scss
+  <br></br>
   │     ├── _sizing.css
+  <br></br>
   │     ├── _sizing.min.css
+  <br></br>
   │     ├── _sizing.scss
+  <br></br>
   │     ├── _spacing.scss
+  <br></br>
   │     ├── _theme.css
+  <br></br>
   │     ├── _theme.min.css
+  <br></br>
   │     ├── _theme.scss
+  <br></br>
   │     ├── _truncate.css
+  <br></br>
   │     ├── _truncate.min.css
+  <br></br>
   │     ├── _truncate.scss
+  <br></br>
   │     ├──  main.css
+  <br></br>
   │     ├──  main.css.map
+  <br></br>
   │     ├──  main.min.css
+  <br></br>
   │     ├──  main.min.css
+  <br></br>
   │  colors_classes.css
+  <br></br>
   │  main.css
+  <br></br>
   │  style.css
+  <br></br>
   │  index.html
+  <br></br>
   └── README.md
 
 ### Quick Start
