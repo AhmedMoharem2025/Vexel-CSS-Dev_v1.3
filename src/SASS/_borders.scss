@@ -1,0 +1,160 @@
+// Borders Looping
+$border: 0;
+$color: #ffffff31;
+
+@for $i from 1 through 10 {
+    // Main Border Radius
+    .br-rd-#{100 + $border}
+    {
+        border-radius: $border + 100px;
+    }
+    // 2
+    .br-rd-#{10 + $border}
+    {
+        border-radius: $border + 10px;
+    }
+    $border: $border + 100;
+    // Top Left Border Radius
+    .br-tl-rd-#{20 + $border}
+    {
+        border-top-left-radius: $border + 20px;
+    }
+    .br-tl-rd-#{100 + $border}
+    {
+        border-top-left-radius: $border + 100px;
+    }
+    // Top Right Border Radius
+    .br-tr-rd-#{20 + $border}
+    {
+        border-top-right-radius: $border + 20px;
+    }
+    .br-tr-rd-#{100 + $border}
+    {
+        border-top-right-radius: $border + 100px;
+    }
+    // Bottom Left Border Radius
+    .br-bl-rd-#{20 + $border}
+    {
+        border-bottom-left-radius: $border + 20px;
+    }
+    .br-bl-rd-#{100 + $border}
+    {
+        border-bottom-left-radius: $border + 100px;
+    }
+    // Bottom Right Border Radius
+    .br-bri-rd-#{20 + $border}
+    {
+        border-bottom-right-radius: $border + 20px;
+    }
+    .br-bri-rd-#{100 + $border}
+    {
+        border-bottom-right-radius: $border + 100px;
+    }
+}
+// All Border Classes With Diffrent In src/main.css 
+
+// Borders Dimentions
+.border-top
+{
+    border-top: 1px solid $color;
+}
+.border-bottom
+{
+    border-bottom: 1px solid $color;
+}
+.border-start
+{
+    border-left: 1px solid $color;
+}
+.border-end
+{
+    border-right: 1px solid $color;
+}
+
+// Borders Opacity /* Dev Class [In Progress/Work] */
+@if (border-top: 1px solid $color) 
+{
+    .border-opacity-75
+    {
+        border-top-color: #ffffff27;
+    }
+    .border-opacity-50
+    {
+        border-top-color: #ffffff1a;
+    }
+    .border-opacity-25
+    {
+        border-top-color: #ffffff13;
+    }
+    .border-opacity-10
+    {
+        border-top-color: #ffffff0e;
+    }
+    .border-opacity-0
+    {
+        border-top-color: #ffffff00;
+    }
+} @else if (border-bottom: 1px solid $color) {
+    .border-opacity-75
+    {
+        border-bottom-color: #ffffff27;
+    }
+    .border-opacity-50
+    {
+        border-bottom-color: #ffffff1a;
+    }
+    .border-opacity-25
+    {
+        border-bottom-color: #ffffff13;
+    }
+    .border-opacity-10
+    {
+        border-bottom-color: #ffffff0e;
+    }
+    .border-opacity-0
+    {
+        border-bottom-color: #ffffff00;
+    }
+} @else if (border-left: 1px solid $color) {
+    .border-opacity-75
+    {
+        border-left-color: #ffffff27;
+    }
+    .border-opacity-50
+    {
+        border-left-color: #ffffff1a;
+    }
+    .border-opacity-25
+    {
+        border-left-color: #ffffff13;
+    }
+    .border-opacity-10
+    {
+        border-left-color: #ffffff0e;
+    }
+    .border-opacity-0
+    {
+        border-left-color: #ffffff00;
+    }
+} @else if (border-right: 1px solid $color) {
+    .border-opacity-75
+    {
+        border-right-color: #ffffff27;
+    }
+    .border-opacity-50
+    {
+        border-right-color: #ffffff1a;
+    }
+    .border-opacity-25
+    {
+        border-right-color: #ffffff13;
+    }
+    .border-opacity-10
+    {
+        border-right-color: #ffffff0e;
+    }
+    .border-opacity-0
+    {
+        border-right-color: #ffffff00;
+    }
+}

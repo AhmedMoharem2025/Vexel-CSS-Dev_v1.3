@@ -1,0 +1,75 @@
+// Spacing Looping
+$space: 0;
+
+@for $i from 1 through 10 {
+    // Margin
+    .m#{10 + $space}
+    {
+        margin: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Margin Top
+    .m-t#{10 + $space}
+    {
+        margin-top: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Margin Left
+    .m-l#{10 + $space}
+    {
+        margin-left: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Margin Right
+    .m-r#{10 + $space}
+    {
+        margin-right: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Margin Bottom
+    .m-b#{10 + $space}
+    {
+        margin-bottom: $space + 10px;
+    }
+    $space: $space + 10;
+
+
+    // Padding
+    .p#{10 + $space}
+    {
+        padding: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Padding Top
+    .p-t#{10 + $space}
+    {
+        padding-top: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Padding Left
+    .p-l#{10 + $space}
+    {
+        padding-left: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Padding Right
+    .p-r#{10 + $space}
+    {
+        padding-right: $space + 10px;
+    }
+    // $space: $space + 10;
+
+    // Padding Bottom
+    .p-b#{10 + $space}
+    {
+        padding-bottom: $space + 10px;
+    }
+    $space: $space + 10;
+}

@@ -1,0 +1,104 @@
+// Circle Function & Placeholder
+@function circle($dimentions) {
+    @return $dimentions;
+}
+@mixin init-reset() {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+%circle {
+    width: circle(dimentions);
+    height: circle(dimentions);
+    border-radius: 50%;
+}
+// Calculations Functions
+@function calculate_plus($calc_val, $plus_val) {
+    @return $calc_val + $plus_val;
+}
+@function calculate_minus($calc_val, $minus_val) {
+    @return $calc_val - $minus_val;
+}
+@function calculate_division($calc_val, $div_val) {
+    @return $calc_val * $div_val;
+}
+@function calculate_multipy($calc_val, $multi_val) {
+    @return $calc_val / $multi_val;
+}
+// Random Placeholder
+// Lists
+%list-reset
+{
+    list-style: none;
+    @include init-reset();
+}
+%list-disc
+{
+    list-style: disc;
+}
+%list-decimal
+{
+    list-style: decimal;
+}
+%list-decimal-leading-zero
+{
+    list-style: decimal-leading-zero;
+}
+// Typegoraphy
+%heading-reset
+{
+    font-size: initial;
+    font-weight: initial;
+    color: initial;
+    font-family: initial;
+    word-break: normal;
+    @include init-reset();
+}
+// Items
+%center-item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin bg($bg_color)
+{
+    background: $bg_color;
+}
+@mixin make-line($line_width)
+{
+    position: relative;
+    width: $line_width;
+    height: 3px;
+    // @include bg(); For Background
+    border-radius: 100px
+}
+@mixin brd_rdus($brd_rad_val)
+{
+    border-radius: $brd_rad_val;
+}
+@mixin brd_tl_rdus($brd_rad_val)
+{
+    border-top-left-radius: $brd_rad_val;
+}
+@mixin brd_tr_rdus($brd_rad_val)
+{
+    border-top-right-radius: $brd_rad_val;
+}
+@mixin brd_bl_rdus($brd_rad_val)
+{
+    border-bottom-left-radius: $brd_rad_val;
+}
+@mixin brd_br_rdus($brd_rad_val)
+{
+    border-bottom-right-radius: $brd_rad_val;
+}
+@mixin marker_color($marker_clr_val)
+{
+    list-style: normal;
+    ul li::marker
+    {
+        color: $marker_clr_val;
+    }
+}

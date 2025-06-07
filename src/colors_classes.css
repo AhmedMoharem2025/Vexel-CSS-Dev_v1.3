@@ -1,0 +1,99 @@
+/* Primary Colors [NOT GODD OPTION] */
+.bx-blue
+{
+    background: var(--box-blue);
+}
+.bx-red
+{
+    background: var(--box-red);
+}
+.bx-redpink
+{
+    background: var(--box-redpink);
+}
+.bx-blueviolet
+{
+    background: var(--box-blueviolet);
+}
+.bx-cyan
+{
+    background: var(--box-cyan);
+}
+.bx-greencyan
+{
+    background: var(--box-greencyan);
+}
+.bx-green
+{
+    background: var(--box-green);
+}
+.bx-yellowgreen
+{
+    background: var(--box-yellowgreen);
+}
+.bx-yellow
+{
+    background: var(--box-yellow);
+}
+.bx-redorange
+{
+    background: var(--box-redorange);
+}
+/* Vexel Dark Colors */
+.bx-darkred
+{
+    background: var(--box-darkred);
+}
+.bx-darkred2x
+{
+    background: var(--box-darkred2x);
+}
+.bx-darkwhite
+{
+    background: var(--box-darkwhite);
+}
+.bx-dark19x
+{
+    background: var(--box-dark19x);
+}
+.bx-dark29x
+{
+    background: var(--box-dark29x);
+}
+.bx-dark2cx
+{
+    background: var(--box-dark2cx);
+}
+.bx-dark1dx
+{
+    background: var(--box-dark1dx);
+}
+.bx-dark187x
+{
+    background: var(--box-dark187x);
+}
+.bx-dark18x
+{
+    background: var(--box-dark18x);
+}
+.bx-dark123x
+{
+    background: var(--box-dark123x);
+}
+.bx-dark186x
+{
+    background: var(--box-dark186x);
+}
+.bx-dark164x
+{
+    background: var(--box-dark164x);
+}
+.bx-dark2x
+{
+    background: var(--box-dark2x);
+}
+.bx-dark142x
+{
+    background: var(--box-dark142x);
+}
+/* All Colors Classes */

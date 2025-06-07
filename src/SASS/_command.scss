@@ -1,0 +1,125 @@
+// Import Colors File
+@use '_colors' as *;
+// Import Mixins File
+@use '_mixins.scss' as *;
+
+
+// Variables
+$beginner_color: #ffd900 !default;
+$pro_color: springgreen;
+$hacker_color: #00ffb3;
+$professional_color: #4400ff;
+
+// Command Style
+cmd
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $beginner_color;
+    font-size: 2.5em !important;
+    font-family: monospace;
+    outline: none;
+    &::before,
+    &::after
+    {
+        color: #444;
+    }
+    &::before
+    {
+        content: '/';
+    }
+    &::spelling-error
+    {
+        text-decoration: none;
+    }
+}
+// Node Options
+// Remove Node
+cmd[node="false"]::before
+{
+    content: '';
+}
+// Add Node
+cmd[node="true"]::before
+{
+    content: '/';
+}
+// At [@] Node
+cmd[node="at"]::before
+{
+    content: '@';
+}
+// IOS [International Operation Standard] Node
+cmd[node="ios"]::before
+{
+    content: '~/';
+}
+// Number Node
+cmd[node="number"]::before
+{
+    content: 'num/';
+}
+cmd[node="numbers"]::before
+{
+    content: 'nums/';
+}
+// Intger Node
+cmd[node="intger"]::before
+{
+    content: 'int/';
+}
+// Float Node
+cmd[node="float"]::before
+{
+    content: 'flo/';
+}
+// String Node
+cmd[node="string"]::before
+{
+    content: 'str/';
+}
+// Content Node
+cmd[node="content"]::before
+{
+    content: 'cnt/';
+}
+// Mode Options
+// Beginner
+cmd[mode="beginner"]
+{
+    color: $beginner_color;
+}
+// Pro
+cmd[mode="pro"]
+{
+    color: $pro_color;
+}
+// Hacker
+cmd[mode="hacker"]
+{
+    color: $hacker_color;
+}
+// Professional
+cmd[mode="professional"]
+{
+    color: $professional_color;
+}
+// Join Options
+// Special Chars
+cmd[join="special"]::after
+{
+    content: attr(data-join); // For Example
+}
+// Unicode Chars
+cmd[join="unicode"]::after
+{
+    content: attr(data-join);
+}
+// Hexcode Chars
+cmd[join="hexcode"]::after
+{
+    content: attr(data-join);
+}

@@ -1,0 +1,21 @@
+// Scaling Looping
+$scale: 0;
+
+@for $i from 1 through 10 {
+    .scale-#{1 + $scale}
+    {
+        scale: $scale + 1;
+    }
+    $scale: $scale + 1;
+}
+// NEW Dev_v1.3
+// Zoom Looping
+$zoom: 0;
+
+@for $i from 1 through 10 {
+    .zoom-#{1 + $zoom}
+    {
+        zoom: $zoom + 1;
+    }
+    $zoom: $zoom + 1;
+}

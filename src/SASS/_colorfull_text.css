@@ -1,0 +1,6 @@
+@use '_colors' as *;
+/* Color Full Text Style */
+colorFullText {
+  position: relative;
+  font-size: 3em;
+}

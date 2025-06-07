@@ -1,0 +1,21 @@
+// Import Colors File
+@use '_colors' as *;
+
+// NOTE: I Used Mixins In This File For Creating Gradient Colors, This File Has No Relationship For Mixins File.
+
+// Linear Gradients
+@mixin def_gradient($angle, $colors...) {
+    background: linear-gradient($angle, $colors);
+}
+@mixin gradient_x($colors...) {
+    background: linear-gradient(to right, $colors);
+}
+@mixin gradient_x_reverse($colors...) {
+    background: linear-gradient(to left, $colors);
+}
+@mixin gradient_y($colors...) {
+    background: linear-gradient(to top, $colors);
+}
+@mixin gradient_y_reverse($colors...) {
+    background: linear-gradient(to bottom, $colors);
+}

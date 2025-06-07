@@ -1,0 +1,13 @@
+// Truncate Looping
+$truncate: 0;
+
+@for $i from 1 through 10 {
+    .tx-tr#{100 + $truncate}
+    {
+        display: -webkit-box;
+        -webkit-line-clamp: $truncate;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    $truncate: $truncate + 100;
+}

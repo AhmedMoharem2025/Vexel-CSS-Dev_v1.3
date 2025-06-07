@@ -1,0 +1,19 @@
+// Import Colors File
+@use '_colors' as *;
+
+// NOTE: I Used Mixins In This File For Creating Color Full Colors, This File Has No Relationship For Mixins File.
+
+// Color Full Text Mixin
+@mixin colorfull_text($angle, $color1, $color2)
+{
+    background: linear-gradient($angle, $color1, $color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Color Full Text Style */
+colorFullText
+{
+    position: relative;
+    font-size: 3em;
+}

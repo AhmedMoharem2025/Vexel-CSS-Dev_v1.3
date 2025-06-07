@@ -1,0 +1,16 @@
+// Sizing Looping
+$sizing: 0;
+
+@for $i from 1 through 10 {
+    // Sizing Width
+    .w-#{100 + $sizing}
+    {
+        width: $sizing + 100px;
+    }
+    // Sizing Height
+    .h-#{100 + $sizing}
+    {
+        height: $sizing + 100px;
+    }
+    $sizing: $sizing + 100;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "vexel-css",
+  "version": "1.0.0",
+  "description": "Best CSS Library For Modern Website Makers & Developers Tools",
+  "main": "build.js",
+  "scripts": {
+    "test": "vexel start"
+  },
+  "author": "Vexel Inc.",
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+@use '_colors' as *;
+.container {
+  box-shadow: 0 20px 30px, rgba(255, 0, 0, 0.5);
+}

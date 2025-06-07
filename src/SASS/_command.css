@@ -1,0 +1,93 @@
+@use '_colors' as *;
+@use '_mixins.scss' as *;
+cmd {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffd900;
+  font-size: 2.5em !important;
+  font-family: monospace;
+  outline: none;
+}
+
+cmd::before, cmd::after {
+  color: #444;
+}
+
+cmd::before {
+  content: '/';
+}
+
+cmd::spelling-error {
+  text-decoration: none;
+}
+
+cmd[node="false"]::before {
+  content: '';
+}
+
+cmd[node="true"]::before {
+  content: '/';
+}
+
+cmd[node="at"]::before {
+  content: '@';
+}
+
+cmd[node="ios"]::before {
+  content: '~/';
+}
+
+cmd[node="number"]::before {
+  content: 'num/';
+}
+
+cmd[node="numbers"]::before {
+  content: 'nums/';
+}
+
+cmd[node="intger"]::before {
+  content: 'int/';
+}
+
+cmd[node="float"]::before {
+  content: 'flo/';
+}
+
+cmd[node="string"]::before {
+  content: 'str/';
+}
+
+cmd[node="content"]::before {
+  content: 'cnt/';
+}
+
+cmd[mode="beginner"] {
+  color: #ffd900;
+}
+
+cmd[mode="pro"] {
+  color: springgreen;
+}
+
+cmd[mode="hacker"] {
+  color: #00ffb3;
+}
+
+cmd[mode="professional"] {
+  color: #4400ff;
+}
+
+cmd[join="special"]::after {
+  content: attr(data-join);
+}
+
+cmd[join="unicode"]::after {
+  content: attr(data-join);
+}
+
+cmd[join="hexcode"]::after {
+  content: attr(data-join);
+}

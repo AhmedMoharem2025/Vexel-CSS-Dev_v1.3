@@ -1,0 +1,228 @@
+/// Useful & Very Nice Code Is: [!important] Flag
+/// @param { !important } Flag 
+/// @return { Right } Code
+/// @author { Vexel Inc. || Ahmed Moharem & VS_Code }
+/// @example (
+///  @import url(/YOUR_PATH/YOUR_FILE_NAME); [ For Import _theme.css Or _theme.min.css File ]
+/// [ Change { $main_Theme: 'Dark' } To { $main_Theme: 'Light' } Or Reverse To Change Your Main App Theme ]
+/// )
+
+// Main App Theme
+$main_Theme: 'Light';
+// Main App Color [1]
+$main_color: #333;
+// Main App Color [2]
+$main_color2: #fff;
+// Main Button Color
+$main_btn_color: #eeeeee49;
+// Main Border Color
+$main_border_color: #0202020e;
+
+// NEW: Dev_v1.3, This File Now Has Not @Depecreated;
+
+@if $main_Theme == 'Dark' {
+    body
+    {
+        background: #222 !important;
+    }
+} @else if $main_Theme == 'Light' {
+    body
+    {
+        background: $main_color2 !important;
+    }
+    /* Main Heading Styles */
+    h1,h2,h3,h4,h5,h6,span,small,kbd,b,p,abbr,strong,i,em,cite,ins,mark,s,sub,sup,u,marquee,strike,samp,plaintext,label,dfn,a,windowText,strokeText,strokeText.letter-one-clr::first-letter,colorFullText,time
+    {
+        color: $main_color;
+    }
+    a:hover
+    {
+        filter: brightness(1.1) !important;
+    }
+    /* Selection Style */
+    ::selection
+    {
+        background: #1185d344;
+    }
+    /* Button Outline Style */
+    button.outline
+    {
+        color: $main_color;
+        &:hover
+        {
+            background: $main_btn_color;
+        }
+    } 
+    /* Button Active Style */
+    button 
+    {
+        &:hover.active
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #ae6fff;
+        }
+        &:hover.active.primary
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #4493ee;
+        }
+        &:hover.active.secondary
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #ff5100;
+        }
+        &:hover.active.success
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #00ffaa;
+        }
+        &:hover.active.danger
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #ff514b;
+        }
+        &:hover.active.warning
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #ffef62;
+        }
+        &:hover.active.info
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #62d5f1;
+        }
+        &:hover.active.light
+        {
+            box-shadow: 0 0 0 3px $main_color2,
+            0 0 0 5px #eee;
+        }
+    }
+    /* Button Light Style */ 
+    button.light
+    {
+        filter: brightness(0.9);
+    }
+    /* Drop Box & Drop Down Styles */
+    .drop-box .drop-heading
+    {
+        position: relative;
+        --select-chervon_down2: url(/Icons/chervon_down_light.svg);
+        background-image: var(--select-chervon_down2), none !important;
+        background-repeat: no-repeat !important;
+        background-position: right .75rem center !important;
+        background-size: 12px !important;
+        appearance: none;
+        background: #eee;
+        color: $main_color;
+        &:hover
+        {
+            color: $main_color;
+            filter: brightness(.9) !important;
+            &:active
+            {
+                color: $main_color;
+                filter: brightness(1.0) !important;
+            }
+        }
+    }
+    .drop-box Drop-down
+    {
+        background: #e7e6e6;
+        color: $main_color;
+    }
+    /* Modal Style */
+    modal
+    {
+        background: #eee;
+        & > modal-header
+        {
+            background: #f7f4f4;
+            & > modal-text
+            {
+                color: $main_color;
+            }
+        }
+        & modal-btns
+        {
+            background: #eceaea;
+            border-top: 1px solid $main_border_color;
+        }
+        & modal-content modal-text
+        {
+            color: $main_color;
+        }
+    }
+    /* Safe Area Styleing */
+    SafeArea[role="toast"]
+    {
+        border: 1.5px solid $main_border_color; 
+        &:active
+        {
+            // filter: sepia(100); /* Note\Warning Box */
+            filter: brightness(.9666555) !important;
+        }   
+    }
+    /* Grouping Safe Area & More Classes */
+    SafeArea[role="toast"],
+    SafeArea[role="notifications"],
+    SafeArea[role="sidebar"],
+    SafeArea[role="card"],
+    nav /* Nav Style */,
+    .container /* Container Style */,
+    .progress /* Progress Style */,
+    a.tooltiplink:hover::after /* Tooltip */,
+    .placeholder,
+    blockquote,
+    circle,
+    details,
+    window
+    {
+        background: #eee;
+    }
+    figure
+    {
+        background: #f7f4f4;
+    }
+    figcaption
+    {
+        color: $main_color;
+    }
+    a.tooltiplink:hover::after
+    {
+        color: $main_color;
+        border: 1.5px solid $main_border_color; 
+    }
+    /* Placeholder Style */
+    @keyframes placeholder_fade {
+        0%, 100%
+        {
+            filter: brightness(0.8);
+        }
+        50%
+        {
+            filter: brightness(0.9);
+        }
+    }
+    // Window Before Style
+    window:before
+    {
+        color: #c2c1c1 !important;
+    }
+    // blockquote
+    blockquote:active
+    {
+        filter: brightness(1);
+    }
+    // details
+    details:hover,
+    details:active
+    {
+        filter: brightness(1);
+    }
+} @else {
+    body
+    {
+        background: initial !important;
+        @error "Can't Add Any Thing Like #{$main_Theme} Only Can Add {Light} Or {Dark} Theme"; // NEW @ERROR
+    }
+}

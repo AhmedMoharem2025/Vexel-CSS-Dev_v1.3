@@ -1,0 +1,38 @@
+// Import Colors File
+@use '_colors.scss' as *;
+// Import Theme File
+@use '_theme.scss' as *;
+// Import Spacing File
+@use '_spacing.scss' as *;
+// Import Borders File
+@use '_borders.scss' as *;
+// Import Sizing File
+@use '_sizing.scss' as *;
+// Import Truncate File
+@use '_truncate.scss' as *;
+// Import Scaling File
+@use '_scaling.scss' as *;
+// Import Mixins File
+@use '_mixins.scss' as *;
+// Import Functions & Placeholders File
+@use '_functions' as *;
+// Import Gradient Colors File
+@use '_gradient' as *;
+// Import Shadows File
+// @use '_shadows' as *; // Work In Progress [Not Completed]
+// Import Command File
+@use '_command' as *;
+// Import Color Full Text File
+@use '_colorfull_text' as *;
+
+// Circle Looping
+$dimention: 0;
+
+@for $i from 1 through 10 {
+    .circle-#{100 + $dimention}
+    {
+        width: $dimention + 100px;
+        height: $dimention + 100px;
+    }
+    $dimention: $dimention + 100;
+}

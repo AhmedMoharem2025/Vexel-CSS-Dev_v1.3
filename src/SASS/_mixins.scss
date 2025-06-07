@@ -1,0 +1,311 @@
+// Text Mixins
+// Text Style
+@mixin italic {
+    font-style: italic;
+}
+@mixin oblique {
+    font-style: oblique;
+}
+@mixin style-normal {
+    font-style: normal;
+}
+@mixin style-initial {
+    font-style: initial;
+}
+@mixin style-inherit {
+    font-style: inherit;
+}
+// Text Weight
+@mixin bold {
+    font-weight: bold;
+}
+@mixin bolder {
+    font-weight: bolder;
+}
+@mixin lighter {
+    font-weight: lighter;
+}
+@mixin weight-initial {
+    font-weight: initial;
+}
+@mixin weight-inherit {
+    font-weight: inherit;
+}
+// Text Famiy
+@mixin courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+@mixin franklin {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@mixin gill-sans {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@mixin arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+@mixin impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@mixin system-ui {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@mixin family-initial {
+    font-family: initial;
+}
+@mixin family-inherit {
+    font-family: inherit;
+}
+// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// Float Mixins
+@mixin float-left
+{
+    position: relative;
+    float: left;
+}
+@mixin float-right
+{
+    position: relative;
+    float: right;
+}
+@mixin float-inline-start
+{
+    position: relative;
+    float: inline-start;
+}
+@mixin float-inline-end
+{
+    position: relative;
+    float: inline-end;
+}
+// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// Resize Mixin
+@mixin resize
+{
+    overflow: auto;
+    resize: both;
+}
+@mixin resize-horizontal
+{
+    overflow: auto;
+    resize: horizontal;
+}
+@mixin resize-vertical
+{
+    overflow: auto;
+    resize: vertical;
+}
+// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// Cursors Mixins
+@mixin cursor-auto
+{
+    cursor: auto;
+}
+@mixin cursor-alias
+{
+    cursor: alias;
+}
+@mixin cursor-pointer
+{
+    cursor: pointer;
+}
+@mixin cursor-help
+{
+    cursor: help;
+}
+@mixin cursor-grab
+{
+    cursor: grab;
+}
+@mixin cursor-grabbing
+{
+    cursor: grabbing;
+}
+@mixin cursor-moz-grab // Firefox Only!
+{
+    cursor: -moz-grab;
+}
+@mixin cursor-moz-grabbing // Firefox Only!
+{
+    cursor: -moz-grabbing;
+}
+@mixin cursor-zoom-in
+{
+    cursor: zoom-in;
+}
+@mixin cursor-zoom-out
+{
+    cursor: zoom-out;
+}
+@mixin cursor-moz-zoom-in // Firefox Only!
+{
+    cursor: -moz-zoom-in;
+}
+@mixin cursor-moz-zoom-out // Firefox Only!
+{
+    cursor: -moz-zoom-out;
+}
+@mixin cursor-webkit-zoom-in // Google Chrome Only!
+{
+    cursor: -webkit-zoom-in;
+}
+@mixin cursor-webkit-zoom-out // Google Chrome Only!
+{
+    cursor: -webkit-zoom-out;
+}
+@mixin cursor-cell
+{
+    cursor: cell;
+}
+@mixin cursor-col-resize
+{
+    cursor: col-resize;
+}
+@mixin cursor-row-resize
+{
+    cursor: row-resize;
+}
+@mixin cursor-context-menu
+{
+    cursor: context-menu;
+}
+@mixin cursor-copy
+{
+    cursor: copy;
+}
+@mixin cursor-crosshair
+{
+    cursor: crosshair;
+}
+@mixin cursor-progress
+{
+    cursor: progress;
+}
+@mixin cursor-text
+{
+    cursor: text;
+}
+@mixin cursor-vertical-text
+{
+    cursor: vertical-text;
+}
+@mixin cursor-move
+{
+    cursor: move;
+}
+@mixin cursor-wait
+{
+    cursor: wait;
+}
+@mixin cursor-w-resize
+{
+    cursor: w-resize;
+}
+@mixin cursor-no-drop
+{
+    cursor: no-drop;
+}
+@mixin cursor-none
+{
+    cursor: none;
+}
+@mixin cursor-not-allowed
+{
+    cursor: not-allowed;
+}
+@mixin cursor-n-resize
+{
+    cursor: n-resize;
+}
+@mixin cursor-ne-resize
+{
+    cursor: ne-resize;
+}
+@mixin cursor-nesw-resize
+{
+    cursor: nesw-resize;
+}
+@mixin cursor-ns-resize
+{
+    cursor: ns-resize;
+}
+@mixin cursor-nw-resize
+{
+    cursor: nw-resize;
+}
+@mixin cursor-ew-resize
+{
+    cursor: ew-resize;
+}
+@mixin cursor-e-resize
+{
+    cursor: e-resize;
+}
+// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// Print Mixin
+@mixin print
+{
+    @media print {
+        @content; // [@content] Mean Write Your Codes In [@include]
+    }
+}
+// \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// Medias Mixins
+@mixin media
+{
+    @media screen
+    {
+        @content;
+    }
+}
+@mixin media-phones
+{
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px)
+    {
+        @content;
+    }
+}
+@mixin media-tablets
+{
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+@mixin media-desktops
+{
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+@mixin media-large-desktops
+{
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+@mixin media-larger-desktops
+{
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) {
+        @content;
+    }
+} // Medias pixels(px) Widths By [Bootstrap v5.3], Link Here: [https://getbootstrap.com/docs/5.3/layout/breakpoints/#min-width];
+
+// Animations
+
+// For Simple Animations see src/main.css [1513 ~ 1540 Ln]
+
+@mixin normal_animation() 
+{
+    animation: normal;
+}
+@mixin make-animation($anim_name) 
+{
+    @content;
+}
+
+// NOTE: All Mixins Used Only! In SASS(scss) Files, NOT Used In CSS(css) Files;

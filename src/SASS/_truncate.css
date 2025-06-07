@@ -1,0 +1,69 @@
+.tx-tr100 {
+  display: -webkit-box;
+  -webkit-line-clamp: 0;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr200 {
+  display: -webkit-box;
+  -webkit-line-clamp: 100;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr300 {
+  display: -webkit-box;
+  -webkit-line-clamp: 200;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr400 {
+  display: -webkit-box;
+  -webkit-line-clamp: 300;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr500 {
+  display: -webkit-box;
+  -webkit-line-clamp: 400;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr600 {
+  display: -webkit-box;
+  -webkit-line-clamp: 500;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr700 {
+  display: -webkit-box;
+  -webkit-line-clamp: 600;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr800 {
+  display: -webkit-box;
+  -webkit-line-clamp: 700;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr900 {
+  display: -webkit-box;
+  -webkit-line-clamp: 800;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tx-tr1000 {
+  display: -webkit-box;
+  -webkit-line-clamp: 900;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

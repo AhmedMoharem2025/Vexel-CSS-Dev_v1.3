@@ -1,0 +1,18 @@
+// Import Colors File
+@use '_colors' as *;
+
+// NOTE: I Used Mixins In This File For Creating Shadows, This File Has No Relationship For Mixins File.
+
+// For Simple Shadows See src/main.css [1956 Ln]
+
+// NOTE: This File Is Not Completed We Working On This [Work In Progress].
+
+
+// Initial Shadow
+@mixin init_shadow() {
+    box-shadow: initial;
+}
+// Make a Shadow
+@mixin make-shadow($vals... ,$colors, $opacity) {
+    box-shadow: $vals, rgba($colors, $opacity);
+}
