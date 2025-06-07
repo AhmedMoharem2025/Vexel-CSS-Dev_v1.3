@@ -162,7 +162,7 @@
   └── README.md
 
 ### Quick Start
- - Download Vexel-CSS Library `ZIP` File From This Link [MY_LINK]
+ `- Download Vexel-CSS Library `ZIP` File From This Link [MY_LINK]
  - After Download, Extract `ZIP` & Check Your True Path For Next Steps
  - Import All CSS Files To Your Main `HTML` Document:
   - <link rel="stylesheet" href="src/main.css">
@@ -179,7 +179,7 @@
  - Create Your Main CSS File In True Path Too & Opening
  - After Creating Your CSS File, Import Your CSS File To Your Main `HTML` Document:
   - <link rel="stylesheet" href="YOUR_PATH/YOUR_CSS_FILE.css"> For Example: <link rel="stylesheet" href="src/style.css">
- - Finally, Create Your First Project By Reading Our Documentation Or Learn About Classes In This `README.md` File
+ - Finally, Create Your First Project By Reading Our Documentation Or Learn About Classes In This `README.md` File`
 
 ### What's Deprecated & Edited In This Version?:
 [*-----------Deprecated----------------*]
@@ -246,7 +246,7 @@
 
 
 ### What Is The Main Mixins & More Elements I Need To Use It?:
-- All Mixins & More Elements It's Important Thing To Use It, Let Me Show Your All Elements You Need To Use It In This Library:
+`- All Mixins & More Elements It's Important Thing To Use It, Let Me Show Your All Elements You Need To Use It In This Library:
 [*-------------HTML----------------*]
  - Heading => [h1|h2|h3|h4|h5|h6]
  - button
@@ -269,7 +269,7 @@
  - ruby
  - strokeText => [NewHTMLElement]
  - colorFullText => [NewHTMLElement]
- - window & windowText => [NewHTMLElements] Such as a <div>, But It's Better Than <div> Element Becuase When Empty Show `EMPTY WINDOW` Message Text
+ - window & windowText => [NewHTMLElements] Such as a <div>, But It's Better Than <div> Element Becuase When Empty Show `EMPTY WINDOW` Message Text`
 ------------------------------------------
 [*-------------CSS_Clsses----------------*]
  - Sizes With [em] [.f-size1x|.f-size2x|.f-size3x|.f-size4x] & Much More With More Than +10 Classes For Each Size From This Sizes Is [Sizes With [vw]|Sizes With [x]]
@@ -320,7 +320,7 @@
 
 ### Syntax & Examples
 [*-------------HTML----------------*]
- - Classes Syntax: <element class="PUT_CLASSES_HERE"></element>
+ `- Classes Syntax: <element class="PUT_CLASSES_HERE"></element>
  - Classes Example: <div class=".f-size2x .tx-dec-wavy"><h1>Welcome To Vexel-CSS Library</h1></div> & Also You Can Put Class On Any Element, For Example I Put Some Classes On <h1> Element Like This: <div class=".f-size2x .tx-dec-wavy"><h1 class=".tx-offset5">Welcome To Vexel-CSS Library</h1></div>
 [*-------------CSS----------------*]
  - Elements & Classes Syntax: `element {YOUR_CODES}` Or With Classes `.element {YOUR_CODES}`
@@ -333,7 +333,7 @@
  - Elements & Classes Example With Mixins[@mixin]: `div {@include cursor-move();}` Or With Classes `.box {@include cursor-move();}`
 
  - Elements & Classes Syntax With Functions[@function]: `element {width: calculate_multipy(YOUR_VALUES_HERE);}` Or With Classes `.element {width: calculate_multipy(YOUR_VALUES_HERE);}`
- - Elements & Classes Example With Functions[@function]: `element {width: calculate_multipy(100px / 2);}` Or With Classes `.element {width: calculate_multipy(100px / 2);}`
+ - Elements & Classes Example With Functions[@function]: `element {width: calculate_multipy(100px / 2);}` Or With Classes `.element {width: calculate_multipy(100px / 2);}`/`
 
 ### Copyright
 - All Copyrights Reversed To Vexel Inc ©2025, Vexel-CSS Dev_v1.3 & Licensed under MIT.
