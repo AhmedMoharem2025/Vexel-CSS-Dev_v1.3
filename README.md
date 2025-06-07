@@ -162,24 +162,24 @@
   └── README.md
 
 ### Quick Start
- `- Download Vexel-CSS Library `ZIP` File From This Link [MY_LINK]
+ - Download Vexel-CSS Library `ZIP` File From This Link [MY_LINK]
  - After Download, Extract `ZIP` & Check Your True Path For Next Steps
  - Import All CSS Files To Your Main `HTML` Document:
-  - <link rel="stylesheet" href="src/main.css">
-    <link rel="stylesheet" href="src/SASS/main.css">
-    <link rel="stylesheet" href="src/style.css"> [Optional]
-    <link rel="stylesheet" href="src/colors_classes.css">
+  - `<link rel="stylesheet" href="src/main.css">`
+    `<link rel="stylesheet" href="src/SASS/main.css">`
+    `<link rel="stylesheet" href="src/style.css"> [Optional]`
+    `<link rel="stylesheet" href="src/colors_classes.css">`
  - Import All Javascript[JS] Files To Your Main `HTML` Document:
-  - <script src="Scripts/build.js"></script>
-    <script src="Scripts/logs.js"></script>
-    <script src="Scripts/server.js"></script>
-    <script src="Scripts/drop_down.js"></script>
-    <script src="Scripts/dev_v1.3.js"></script>
-    <script src="Scripts/modal.js"></script>
+  - `<script src="Scripts/build.js"></script>`
+    `<script src="Scripts/logs.js"></script>`
+    `<script src="Scripts/server.js"></script>`
+    `<script src="Scripts/drop_down.js"></script>`
+    `<script src="Scripts/dev_v1.3.js"></script>`
+    `<script src="Scripts/modal.js"></script>`
  - Create Your Main CSS File In True Path Too & Opening
  - After Creating Your CSS File, Import Your CSS File To Your Main `HTML` Document:
-  - <link rel="stylesheet" href="YOUR_PATH/YOUR_CSS_FILE.css"> For Example: <link rel="stylesheet" href="src/style.css">
- - Finally, Create Your First Project By Reading Our Documentation Or Learn About Classes In This `README.md` File`
+  - `<link rel="stylesheet" href="YOUR_PATH/YOUR_CSS_FILE.css">` For Example: `<link rel="stylesheet" href="src/style.css">`
+ - Finally, Create Your First Project By Reading Our Documentation Or Learn About Classes In This `README.md` File
 
 ### What's Deprecated & Edited In This Version?:
 [*-----------Deprecated----------------*]
