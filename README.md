@@ -1,5 +1,5 @@
 ### Vexel-CSS Dev_v1.3
-- Best CSS Library For Modern Website Makers & Developers Tools
+- Best CSS Framework For Modern Website Makers & Developers Tools
 
 ### What's New In This Version?:
 [*-----------CSS_&_SASS----------------*]
@@ -165,17 +165,17 @@
  - Download Vexel-CSS Library `ZIP` File From This Link [MY_LINK]
  - After Download, Extract `ZIP` & Check Your True Path For Next Steps
  - Import All CSS Files To Your Main `HTML` Document:
-  - `<link rel="stylesheet" href="src/main.css">`
+  - ``<link rel="stylesheet" href="src/main.css">`
     `<link rel="stylesheet" href="src/SASS/main.css">`
     `<link rel="stylesheet" href="src/style.css"> [Optional]`
-    `<link rel="stylesheet" href="src/colors_classes.css">`
+    `<link rel="stylesheet" href="src/colors_classes.css">
  - Import All Javascript[JS] Files To Your Main `HTML` Document:
-  - `<script src="Scripts/build.js"></script>`
+  - ``<script src="Scripts/build.js"></script>`
     `<script src="Scripts/logs.js"></script>`
     `<script src="Scripts/server.js"></script>`
     `<script src="Scripts/drop_down.js"></script>`
     `<script src="Scripts/dev_v1.3.js"></script>`
-    `<script src="Scripts/modal.js"></script>`
+    `<script src="Scripts/modal.js"></script>
  - Create Your Main CSS File In True Path Too & Opening
  - After Creating Your CSS File, Import Your CSS File To Your Main `HTML` Document:
   - `<link rel="stylesheet" href="YOUR_PATH/YOUR_CSS_FILE.css">` For Example: `<link rel="stylesheet" href="src/style.css">`
@@ -320,8 +320,8 @@
 
 ### Syntax & Examples
 [*-------------HTML----------------*]
- - `Classes Syntax: <element class="PUT_CLASSES_HERE"></element>`
- - `Classes Example: <div class=".f-size2x .tx-dec-wavy"><h1>Welcome To Vexel-CSS Library</h1></div> & Also You Can Put Class On Any Element, For Example I Put Some Classes On <h1> Element Like This: <div class=".f-size2x .tx-dec-wavy"><h1 class=".tx-offset5">Welcome To Vexel-CSS Library</h1></div>`
+ - ``Classes Syntax: <element class="PUT_CLASSES_HERE"></element>`
+ - ``Classes Example: <div class=".f-size2x .tx-dec-wavy"><h1>Welcome To Vexel-CSS Library</h1></div> & Also You Can Put Class On Any Element, For Example I Put Some Classes On <h1> Element Like This: <div class=".f-size2x .tx-dec-wavy"><h1 class=".tx-offset5">Welcome To Vexel-CSS Library</h1></div>`
 [*-------------CSS----------------*]
  - Elements & Classes Syntax: `element {YOUR_CODES}` Or With Classes `.element {YOUR_CODES}`
  - Elements & Classes Example: `div {width: 100px; height: 100px; background: red;}` Or With Classes `.box {width: 100px; height: 100px; background: red;}`
